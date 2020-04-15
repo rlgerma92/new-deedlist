@@ -24,7 +24,7 @@ export default function Footer() {
             {' '}
             Adena McGibbon
           </a>{' '}
-          + <a href="https://rgermaine.com">Richard Germaine</a> +{' '}
+          + <a href="https://rgermaine.com">Richard Germaine</a>
         </li>
       </ul>
     </footer>
