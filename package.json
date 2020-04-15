@@ -4,7 +4,7 @@
   "description": "New Deedlist",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/rlgerma92/new-deedlist"
   },
   "author": {
     "name": "Richard Germaine, Adena McGibbon, Carina Ullman, Miana Kassis, Anubhav Srivastava",
@@ -42,11 +42,10 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-eventually"
+    "gatsby-starter"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rlgerma92"
+    "url": "https://github.com/rlgerma92/new-deedlist/issues"
   }
 }
