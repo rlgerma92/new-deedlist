@@ -1,9 +1,8 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import EmailForm from '../components/EmailForm';
+import SignupForm from '../components/Signup';
 import SlideShow from '../components/SlideShow';
 
 var settings = {
@@ -19,7 +18,7 @@ var settings = {
 const IndexPage = () => (
   <Layout>
     <Header />
-    <EmailForm />
+    <SignupForm />
     <Footer />
     <SlideShow settings={settings} />
   </Layout>
