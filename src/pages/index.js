@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import SignupForm from '../components/Signup';
+import SignupForm from '../components/SignUp';
 import SlideShow from '../components/SlideShow';
 
 var settings = {
