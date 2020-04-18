@@ -68,7 +68,6 @@ const Select = ({ label, ...props }) => {
   );
 };
 
-// And now we can use these
 const SignupForm = () => {
   return (
     <>
@@ -78,8 +77,8 @@ const SignupForm = () => {
           firstName: '',
           lastName: '',
           email: '',
-          acceptedTerms: false, // added for our checkbox
-          jobType: '', // added for our select
+          acceptedTerms: false,
+          jobType: '',
         }}
         validationSchema={Yup.object({
           firstName: Yup.string()
@@ -95,8 +94,7 @@ const SignupForm = () => {
             .required('Required')
             .oneOf([true], 'You must accept the terms and conditions.'),
           jobType: Yup.string()
-            // specify the set of valid values for job type
-            // @see http://bit.ly/yup-mixed-oneOf
+
             .oneOf(['need', 'deed'], 'Invalid Option')
             .required('Required'),
         })}
