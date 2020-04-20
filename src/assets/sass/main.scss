@@ -7,7 +7,7 @@
 @import url("https://use.typekit.net/bpt2lbh.css");
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
-
+@import "~bootstrap/scss/bootstrap";
 
 @include breakpoints((xlarge: (1281px, 1680px),
 		large: (981px, 1280px),
