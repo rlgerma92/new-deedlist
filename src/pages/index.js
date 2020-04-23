@@ -1,8 +1,8 @@
 import React from 'react';
+import GetUser from '../components/GetUser';
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import GetUser from '../components/GetUser';
 import SlideShow from '../components/SlideShow';
 
 var settings = {
