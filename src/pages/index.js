@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SlideShow from '../components/SlideShow';
+let IdentityContext = React.createContext();
 
 var settings = {
   images: [

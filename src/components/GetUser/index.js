@@ -3,7 +3,7 @@ import { Router, Link, navigate } from '@reach/router';
 import { useNetlifyIdentity } from 'react-netlify-identity';
 import useLoading from '../../utils/useLoading';
 
-let IdentityContext = React.createContext();
+
 
 function PrivateRoute(props) {
   const identity = React.useContext(IdentityContext);
